@@ -1,0 +1,27 @@
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\System.Net.Http.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Service.Pattern\obj\Debug\Service.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\Service.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\Service.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\System.Net.Http.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\obj\Debug\Service.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Service.Pattern\obj\Debug\Service.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\obj\Debug\Service.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\obj\Debug\Service.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\Service.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\Service.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\System.Net.Http.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\bin\Debug\Repository.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
