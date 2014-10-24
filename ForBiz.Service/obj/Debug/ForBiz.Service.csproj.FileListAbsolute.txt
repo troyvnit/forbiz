@@ -14,3 +14,19 @@
 \\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.dll
 \\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\ForBiz.Service.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\ForBiz.Service.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\ForBiz.Entities.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Repository.Pattern.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Repository.Pattern.Ef6.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Service.Pattern.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\EntityFramework.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\LinqKit.dll
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\ForBiz.Entities.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Repository.Pattern.Ef6.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Repository.Pattern.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\Service.Pattern.pdb
+C:\Projects\ForBiz\ForBiz.Service\bin\Debug\EntityFramework.xml
+C:\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.csprojResolveAssemblyReference.cache
+C:\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.dll
+C:\Projects\ForBiz\ForBiz.Service\obj\Debug\ForBiz.Service.pdb

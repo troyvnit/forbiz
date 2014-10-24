@@ -10,6 +10,98 @@
                 <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
                     <div class="elements">
                         <div class="tp-caption lfl"
+                             data-x="133"
+                             data-y="47"
+                             data-speed="1000"
+                             data-start="1500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn">
+                            <img src="img/content/slider/rs-slider10-img1.png" class="replace-2x" alt="">
+                        </div>
+
+                        <div class="tp-caption lfl"
+                             data-x="327"
+                             data-y="225"
+                             data-speed="1000"
+                             data-start="1000"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn"
+                             style="z-index: 3">
+                            <img src="img/content/slider/rs-slider10-img3.png" class="replace-2x" alt="">
+                        </div>
+
+                        <div class="tp-caption lfl lft"
+                             data-x="18"
+                             data-y="200"
+                             data-speed="1000"
+                             data-start="1700"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn"
+                             style="z-index: 3">
+                            <img src="img/content/slider/rs-slider10-img2.png" class="replace-2x" alt="">
+                        </div>
+
+                        <div class="tp-caption lfb"
+                             data-x="157"
+                             data-y="287"
+                             data-speed="1000"
+                             data-start="1880"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn"
+                             style="z-index: 4">
+                            <img src="img/content/slider/rs-slider10-img4.png" class="replace-2x" alt="">
+                        </div>
+
+                        <h2 class="tp-caption lft skewtotop title"
+                            data-x="722"
+                            data-y="101"
+                            data-speed="1000"
+                            data-start="1700"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power1.easeIn">
+                            <strong>RESPONSIVE WEB DESIGN</strong>
+                        </h2>
+
+                        <div class="tp-caption lfr skewtoright description"
+                             data-x="707"
+                             data-y="189"
+                             data-speed="1000"
+                             data-start="1500"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power1.easeIn"
+                             style="max-width: 480px">
+                            <p>
+                                We added <strong>more than 80 items</strong> to the standard page design.
+                                You can form the page yourself by placing any information
+                                you want – graphs, tables, buttons, slides, animated
+                                content, maps and so on.
+                            </p>
+                        </div>
+                        <a href="http://themeforest.net/item/progressive-multipurpose-responsive-template/7197521"
+                           class="btn tp-caption lfb btn-primary"
+                           data-x="722"
+                           data-y="342"
+                           data-speed="1000"
+                           data-start="1700"
+                           data-easing="Power4.easeOut"
+                           data-endspeed="500"
+                           data-endeasing="Power1.easeIn">
+                            Read more
+                        </a>
+                    </div>
+
+                    <img src="img/content/slider/rs-slider10-bg.png" class="replace-2x" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                </li>
+
+                <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                    <div class="elements">
+                        <div class="tp-caption lfl"
                              data-x="211"
                              data-y="203"
                              data-speed="1000"
@@ -863,8 +955,10 @@
             <div class="banners">
                 @foreach (var feedItem in feedItems)
                 {
+                    var doc = new HtmlAgilityPack.HtmlDocument();
+                    doc.LoadHtml(feedItem.Summary.Text);
                     <a href="@feedItem.Links[0].GetAbsoluteUri()" class="banner">
-                        <img src="@feedItem.BaseUri" class="replace-2x" width="127" height="79" alt="">
+                        <img src="@doc.DocumentNode.Descendants("img").Select(n => n.Attributes["src"].Value).ToArray().FirstOrDefault()" class="replace-2x" width="127" height="79" alt="">
                         <h2 class="title">@feedItem.Title.Text</h2>
                     </a>
                 }
