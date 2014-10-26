@@ -1,1 +1,0 @@
-\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\ForBiz.Tests\obj\Debug\ForBiz.Tests.csprojResolveAssemblyReference.cache
