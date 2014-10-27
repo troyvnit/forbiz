@@ -1,0 +1,15 @@
+D:\Projects\ForBiz\ForBiz.Entities\obj\Release\ForBiz.Entities.csprojResolveAssemblyReference.cache
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\ForBiz.Entities.dll.config
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\ForBiz.Entities.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\ForBiz.Entities.pdb
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\EntityFramework.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\Repository.Pattern.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\Repository.Pattern.Ef6.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\LinqKit.dll
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\Repository.Pattern.Ef6.pdb
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\Repository.Pattern.pdb
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\EntityFramework.xml
+D:\Projects\ForBiz\ForBiz.Entities\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\ForBiz\ForBiz.Entities\obj\Release\ForBiz.Entities.dll
+D:\Projects\ForBiz\ForBiz.Entities\obj\Release\ForBiz.Entities.pdb

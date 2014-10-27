@@ -583,8 +583,6 @@
     <Content Include="js\SmoothScroll.js" />
     <Content Include="js\spin.min.js" />
     <Content Include="js\video.js" />
-    <Content Include="css\royalslider\.DS_Store" />
-    <Content Include="css\royalslider\skins\.DS_Store" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -649,6 +647,7 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\_Menu.cshtml" />
+    <None Include="Properties\PublishProfiles\4biz.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ForBiz.Entities\ForBiz.Entities.csproj">
@@ -664,11 +663,11 @@
       <Name>Repository.Pattern.Ef6</Name>
     </ProjectReference>
     <ProjectReference Include="..\Framework\Repository.Pattern\Repository.Pattern.csproj">
-      <Project>{6E682A14-C872-4813-B620-76E108DEA683}</Project>
+      <Project>{6e682a14-c872-4813-b620-76e108dea683}</Project>
       <Name>Repository.Pattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\Framework\Service.Pattern\Service.Pattern.csproj">
-      <Project>{86F86650-EE3C-4372-8FEC-40C2FE015022}</Project>
+      <Project>{86f86650-ee3c-4372-8fec-40c2fe015022}</Project>
       <Name>Service.Pattern</Name>
     </ProjectReference>
   </ItemGroup>
@@ -690,7 +689,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50976</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50976/</IISUrl>
+          <IISUrl>http://localhost:7777/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

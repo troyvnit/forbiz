@@ -1,0 +1,16 @@
+D:\Projects\ForBiz\ForBiz.Service\obj\Release\ForBiz.Service.csprojResolveAssemblyReference.cache
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\ForBiz.Service.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\ForBiz.Service.pdb
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\ForBiz.Entities.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Repository.Pattern.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Repository.Pattern.Ef6.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Service.Pattern.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\EntityFramework.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\LinqKit.dll
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\ForBiz.Entities.pdb
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Repository.Pattern.Ef6.pdb
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Repository.Pattern.pdb
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\Service.Pattern.pdb
+D:\Projects\ForBiz\ForBiz.Service\bin\Release\EntityFramework.xml
+D:\Projects\ForBiz\ForBiz.Service\obj\Release\ForBiz.Service.dll
+D:\Projects\ForBiz\ForBiz.Service\obj\Release\ForBiz.Service.pdb
