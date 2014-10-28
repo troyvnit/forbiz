@@ -1,0 +1,29 @@
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Users\Long\Source\Repos\uowrepo\main\Source\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\4biz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+C:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+C:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+C:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+C:\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
+C:\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+C:\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+D:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll.config
+D:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.dll
+D:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
+D:\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.dll
+D:\Projects\ForBiz\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
+D:\Projects\ForBiz\Framework\Repository.Pattern\bin\Debug\System.Data.dll

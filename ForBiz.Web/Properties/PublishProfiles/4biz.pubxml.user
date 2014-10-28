@@ -23,19 +23,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2014 11:45:20</publishTime>
     </File>
     <File Include="bin/ForBiz.Entities.dll">
-      <publishTime>10/27/2014 11:19:34</publishTime>
+      <publishTime>10/27/2014 12:06:15</publishTime>
     </File>
     <File Include="bin/ForBiz.Entities.pdb">
       <publishTime>10/27/2014 11:05:49</publishTime>
     </File>
     <File Include="bin/ForBiz.Service.dll">
-      <publishTime>10/27/2014 11:19:35</publishTime>
+      <publishTime>10/27/2014 12:06:16</publishTime>
     </File>
     <File Include="bin/ForBiz.Service.pdb">
       <publishTime>10/27/2014 11:05:50</publishTime>
     </File>
     <File Include="bin/ForBiz.Web.dll">
-      <publishTime>10/27/2014 11:19:37</publishTime>
+      <publishTime>10/27/2014 12:07:15</publishTime>
     </File>
     <File Include="bin/ForBiz.Web.pdb">
       <publishTime>10/27/2014 11:05:51</publishTime>
@@ -113,10 +113,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2014 11:45:22</publishTime>
     </File>
     <File Include="bin/Repository.Pattern.dll">
-      <publishTime>10/27/2014 11:05:32</publishTime>
+      <publishTime>10/27/2014 12:06:12</publishTime>
     </File>
     <File Include="bin/Repository.Pattern.Ef6.dll">
-      <publishTime>10/27/2014 11:05:33</publishTime>
+      <publishTime>10/27/2014 12:06:14</publishTime>
     </File>
     <File Include="bin/Repository.Pattern.Ef6.pdb">
       <publishTime>10/27/2014 11:05:49</publishTime>
@@ -125,7 +125,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/27/2014 10:37:26</publishTime>
     </File>
     <File Include="bin/Service.Pattern.dll">
-      <publishTime>10/27/2014 11:19:32</publishTime>
+      <publishTime>10/27/2014 12:06:15</publishTime>
     </File>
     <File Include="bin/Service.Pattern.pdb">
       <publishTime>10/27/2014 10:37:28</publishTime>
@@ -1349,7 +1349,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2014 11:44:58</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/24/2014 10:21:17</publishTime>
+      <publishTime>10/27/2014 12:04:32</publishTime>
     </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
       <publishTime>10/23/2014 11:44:44</publishTime>
@@ -1445,7 +1445,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2014 11:44:43</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/27/2014 11:26:12</publishTime>
+      <publishTime>10/27/2014 12:07:22</publishTime>
     </File>
   </ItemGroup>
 </Project>
