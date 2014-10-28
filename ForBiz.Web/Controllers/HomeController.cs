@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using System.Xml;
 using ForBiz.Entities.Models;
 using ForBiz.Service;
+using ForBiz.Web.Models;
 using Repository.Pattern.UnitOfWork;
 using Repository.Pattern.Infrastructure;
 
@@ -18,12 +19,14 @@ namespace ForBiz.Web.Controllers
         private IQuickLinkService quickLinkService { get; set; }
         private IArticleService articleService { get; set; }
         private IUnitOfWorkAsync unitOfWork { get; set; }
+        private IArticleCategoryService articleCategoryService { get; set; }
 
-        public HomeController(IQuickLinkService quickLinkService, IUnitOfWorkAsync unitOfWork, IArticleService articleService)
+        public HomeController(IQuickLinkService quickLinkService, IUnitOfWorkAsync unitOfWork, IArticleService articleService, IArticleCategoryService articleCategoryService)
         {
             this.quickLinkService = quickLinkService;
             this.articleService = articleService;
             this.unitOfWork = unitOfWork;
+            this.articleCategoryService = articleCategoryService;
         }
         public ActionResult Index()
         {

@@ -1,10 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using Repository.Pattern.Ef6;
+using System.Linq;
+using System.Web;
 
-namespace ForBiz.Entities.Models
+namespace ForBiz.Web.Models
 {
-    public class Article : Entity
+    public class ArticleViewModel
     {
         public int ArticleId { get; set; }
         public string Title { get; set; }
@@ -17,6 +18,5 @@ namespace ForBiz.Entities.Models
         public DateTime PublishedDate { get; set; }
         public string Author { get; set; }
         public bool? IsActived { get; set; }
-        public ICollection<ArticleCategory> ArticleCategory { get; set; }
     }
 }
