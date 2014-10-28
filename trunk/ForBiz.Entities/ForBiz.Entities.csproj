@@ -52,6 +52,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="ForBizContext.cs" />
+    <Compile Include="Models\ArticleCategory.cs" />
     <Compile Include="Models\QuickLink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

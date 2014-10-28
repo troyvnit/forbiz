@@ -55,7 +55,9 @@ namespace ForBiz.Web.App_Start
                 .RegisterType<IRepositoryAsync<Article>, Repository<Article>>()
                 .RegisterType<IRepositoryAsync<QuickLink>, Repository<QuickLink>>()
                 .RegisterType<IArticleService, ArticleService>()
-                .RegisterType<IQuickLinkService, QuickLinkService>();
+                .RegisterType<IQuickLinkService, QuickLinkService>()
+                .RegisterType<IRepositoryAsync<ArticleCategory>, Repository<ArticleCategory>>()
+                .RegisterType<IArticleCategoryService, ArticleCategoryService>();
         }
     }
 }

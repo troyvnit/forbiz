@@ -14,6 +14,7 @@ namespace ForBiz.Entities
         }
 
         DbSet<Article> Articles { get; set; }
-        DbSet<QuickLink> QuickLinks { get; set; } 
+        DbSet<QuickLink> QuickLinks { get; set; }
+        DbSet<ArticleCategory> ArticleCategories { get; set; } 
     }
 }
