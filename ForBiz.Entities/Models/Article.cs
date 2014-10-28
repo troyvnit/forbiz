@@ -16,7 +16,15 @@ namespace ForBiz.Entities.Models
         public DateTime CreatedDate { get; set; }
         public DateTime PublishedDate { get; set; }
         public string Author { get; set; }
+        public ArticleType ArticleType { get; set; }
         public bool? IsActived { get; set; }
+        public int ArticleSourceId { get; set; }
+        public ArticleSource ArticleSource { get; set; }
         public ICollection<ArticleCategory> ArticleCategory { get; set; }
+    }
+
+    public enum ArticleType
+    {
+        Rss, ForBiz
     }
 }
