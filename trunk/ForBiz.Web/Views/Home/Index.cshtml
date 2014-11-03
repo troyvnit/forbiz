@@ -3,6 +3,7 @@
     ViewBag.Title = "Home Page";
     var feedItems = (IEnumerable<SyndicationItem>) ViewBag.FeedItems;
 }
+<section id="home">
 <div class="slider rs-slider load">
     <div class="tp-banner-container">
         <div class="tp-banner">
@@ -500,6 +501,7 @@
     </div>
     <!-- .banner-set -->
 }
+</section>
 <div class="clearfix"></div>
 <div id="main">
     <article class="content">
@@ -582,7 +584,7 @@
                         <h1 class="title">Con đường thành công</h1>
                     </div>
 
-                    <div class="steps" data-appear-animation="fadeIn">
+                    <div class="steps" data-appear-animation="bounceInLeft">
                         <div class="step text-center border-warning bg-warning white">
                             <div class="step-wrapper">
                                 <span class="livicon" data-n="star-empty" data-s="48" data-c="#fff" data-hc="#f6f5f5"></span>
@@ -643,7 +645,7 @@
 
                 <div class="container">
                     <div class="portfolio">
-                        <div class="btn-group filter-buttons filter-list white">
+                        <div class="btn-group filter-buttons filter-list white" data-appear-animation="fadeInDown">
                             <button type="button" class="dropdown-toggle" data-toggle="dropdown">
                                 All works <span class="caret"></span>
                             </button>
@@ -658,7 +660,7 @@
 
                         <div class="clearfix"></div>
 
-                        <div class="row filter-elements">
+                        <div class="row filter-elements" data-appear-animation="bounceInUp">
                             <div class="work-element ecommerce col-xs-12 col-sm-3 col-md-3">
                                 <a href="portfolio-single.html" class="work">
                                     <img src="~/img/content/projects/smart-health-avatar.png" width="270" height="197" alt="">
@@ -759,84 +761,329 @@
                 </div>
             </div><!-- .full-width-box -->
         </section>
+        <section id="clients">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 promo-partners bottom-padding">
-                        <div class="title-box">
-                            <h2 class="title">Our partners</h2>
-                        </div>
-                        <div class="row manufactures manufactures-list">
-                            <div class="make-wrapper">
+                <div class="manufactures carousel-box load overflow bottom-padding" data-carousel-autoplay="true">
+                    <div class="title-box">
+                        <a class="next" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9px" height="16px" viewBox="0 0 9 16" enable-background="new 0 0 9 16" xml:space="preserve">
+                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#fcfcfc" points="1,0.001 0,1.001 7,8 0,14.999 1,15.999 9,8 "></polygon>
+			    </svg>
+                        </a>
+                        <a class="prev" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9px" height="16px" viewBox="0 0 9 16" enable-background="new 0 0 9 16" xml:space="preserve">
+                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#fcfcfc" points="8,15.999 9,14.999 2,8 9,1.001 8,0.001 0,8 "></polygon>
+			    </svg>
+                        </a>
+                        <h2 class="title">Khách hàng của chúng tôi</h2>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="row">
+                        <div class="carousel">
+                            <div class="col-sm-3 col-md-2">
                                 <a href="#" class="make">
-                                    <img src="img/content/make-2.png" class="replace-2x" width="128" height="128" alt="">
+                                    <img src="~/img/content/clients/smart-health-logo.png" width="170" height="170" alt="">
                                 </a>
                             </div>
-                            <!--
 
-                        -->
-                            <div class="make-wrapper">
+                            <div class="col-sm-3 col-md-2">
                                 <a href="#" class="make">
-                                    <img src="img/content/make-3.png" class="replace-2x" width="128" height="128" alt="">
+                                    <img src="~/img/content/clients/smart-salt-logo.png" width="170" height="170" alt="">
                                 </a>
                             </div>
-                            <!--
 
-                        -->
-                            <div class="make-wrapper">
+                            <div class="col-sm-3 col-md-2">
                                 <a href="#" class="make">
-                                    <img src="img/content/make-4.png" class="replace-2x" width="128" height="128" alt="">
+                                    <img src="~/img/content/clients/conceive-plus-logo.png" width="170" height="170" alt="">
+                                </a>
+                            </div>
+
+                            <div class="col-sm-3 col-md-2">
+                                <a href="#" class="make">
+                                    <img src="~/img/content/clients/au-co-bien-hoa-logo.png" width="170" height="170" alt="">
+                                </a>
+                            </div>
+
+                            <div class="col-sm-3 col-md-2">
+                                <a href="#" class="make">
+                                    <img src="~/img/content/clients/vay-365-logo.png" width="170" height="170" alt="">
+                                </a>
+                            </div>
+
+                            <div class="col-sm-3 col-md-2">
+                                <a href="#" class="make">
+                                    <img src="~/img/content/clients/thoi-trang-viet-anh-logo.png" width="170" height="170" alt="">
+                                </a>
+                            </div>
+
+                            <div class="col-sm-3 col-md-2">
+                                <a href="#" class="make">
+                                    <img src="~/img/content/clients/kim-bien-market-logo.png" width="170" height="170" alt="">
                                 </a>
                             </div>
                         </div>
-                        <p>Duis bibendum pulvinar laoreet. Ut eu arcu sit amet elit placerat pharetra sit amet a tortor. Fusce vestibulum auctor rhoncus. Nullam rhoncus, tellus a congue elementum, leo ipsum tincidunt justo, ut condimentum velit eros et lectus. Phasellus ultrices rhoncus vehicula.</p>
-                        <p>Integer ultricies semper massa non condimentum. Phasellus eu ipsum justo. Nullam non pulvinar purus. Ut ante ipsum, venenatis at tristique quis, congue vitae felis. Aliquam cursus diam in massa dapibus auctor. In volutpat, risus non egestas luctus, justo tellus laoreet justo. </p>
-                    </div><!-- .promo-partners -->
-
-                    <div class="col-sm-12 col-md-6">
-                        <div class="title-box">
-                            <a href="#" class="btn btn-default">All posts <span class="glyphicon glyphicon-arrow-right"></span></a>
-                            <h2 class="title">Latest Posts</h2>
-                        </div>
-                        <ul class="latest-posts">
-                            <li>
-                                <img class="image img-circle replace-2x" src="img/content/product-1-84.png" alt="" title="" width="84" height="84" data-appear-animation="rotateIn">
-                                <div class="meta">
-                                    <span>Mike Example</span>,
-                                    <span class="time">03.11.2013, 10:45:</span>
-                                </div>
-                                <div class="description">
-                                    <a href="#">
-                                        Suspendisse at placerat turpis. Duis luctus erat vel magna pharetra aliquet. Maecenas tincidunt feugiat ultricies. Phasellus et dui risus.
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <img class="image img-circle replace-2x" src="img/content/product-2-84.png" alt="" title="" width="84" height="84" data-appear-animation="rotateIn">
-                                <div class="meta">
-                                    <span>Mike Example</span>,
-                                    <span class="time">03.11.2013, 10:45:</span>
-                                </div>
-                                <div class="description">
-                                    <a href="#">
-                                        Maecenas porttitor orci vitae turpis interdum sit amet dignissim dolor consequat. Aenean id erat lorem.
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <img class="image img-circle replace-2x" src="img/content/product-3-84.png" alt="" title="" width="84" height="84" data-appear-animation="rotateIn">
-                                <div class="meta">
-                                    <span>Mike Example</span>,
-                                    <span class="time">03.11.2013, 10:45:</span>
-                                </div>
-                                <div class="description">
-                                    <a href="#">
-                                        Mauris vehicula fringilla nisl porttitor sollicitudin. Suspendisse facilisis metus id neque fermentum eget rutrum orci pulvinar.
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
+            </div><!-- .containet -->
+            <div class="full-width-box bottom-padding">
+                <div class="fwb-bg fwb-blur" data-blur-image="img/content/band-1.jpg" data-blur-amount="3">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="container">
+                    <div class="title-box text-center title-white">
+                        <h1 class="title">Khác hàng nói gì !?</h1>
+                    </div>
+
+                    <div class="respond-carousel">
+                        <div class="carousel-box load" data-carousel-pagination="true" data-carousel-one="true" data-carousel-nav="false" data-carousel-autoplay="true">
+                            <div class="row">
+                                <div class="carousel">
+                                    <div class="respond respond-blockquote border white col-sm-12 col-md-12">
+                                        <div class="description border-white">
+                                            <blockquote>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis at sit iure accusamus repellendus ut minus explicabo delectus et culpa quisquam voluptatum dolorum. Repudiandae recusandae voluptatum autem odit eos blanditiis omnis laudantium cupiditate modi aliquid a aut quibusdam aspernatur voluptates ipsam officiis sint nemo delectus dicta veritatis assumenda accusamus eius.
+                                            </blockquote>
+                                        </div>
+                                        <div class="name">
+                                            <div class="icon">
+                                                <img class="img-circle" src="img/content/avatar-1.jpg" alt="">
+                                            </div>
+
+                                            <strong>John Doe</strong>
+                                            <div>Designer, Infostyle</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="respond respond-blockquote border white col-sm-12 col-md-12">
+                                        <div class="description border-white">
+                                            <blockquote>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde a cumque sequi omnis eligendi odio vero magnam veritatis aliquid ab nesciunt dignissimos distinctio earum est veniam impedit quod qui eveniet tempore nostrum maxime aliquam dolore voluptates tenetur repudiandae ut dolor debitis mollitia amet labore voluptatibus dolorum eius tempora.
+                                            </blockquote>
+                                        </div>
+                                        <div class="name">
+                                            <div class="icon">
+                                                <img class="img-circle" src="img/content/avatar-2.jpg" alt="">
+                                            </div>
+
+                                            <strong>Derek Smitt</strong>
+                                            <div>Director, Infostyle</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="respond respond-blockquote border white col-sm-12 col-md-12">
+                                        <div class="description border-white">
+                                            <blockquote>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi non magnam hic quos odio tenetur cumque enim provident repellat quibusdam vero velit accusantium fuga praesentium dolorum ullam quasi et quia dolore molestiae earum ipsum veniam eius sit nihil inventore necessitatibus dicta exercitationem ipsam voluptates. Ullam ipsa quo commodi.
+                                            </blockquote>
+                                        </div>
+                                        <div class="name">
+                                            <div class="icon">
+                                                <img class="img-circle" src="img/content/avatar-1.jpg" alt="">
+                                            </div>
+
+                                            <strong>John Doe</strong>
+                                            <div>Designer, Infostyle</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="pagination switches"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .full-width-box -->
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="title-box">
+                    <h1 class="title">Chúng tôi là ai ?</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 bottom-padding">
+                        <p class="lead"><strong>Trả qua nhiều năm làm việc và cống hiến cho những công ty Công nghệ hàng đầu việc nam. Chúng tôi tự tin và khát vọng xây dựng ước mơ cho riêng mình.</strong></p>
+                        <p>4biz ra đời trước xu thế bùng nổ thương mại điện tử toàn cầu. Với mong muốn mang tất cả kinh nghiệm làm việc với những hiện thống lớn, dữ liệu phức tạp, thiết kế hướng người dùng,... chúng tôi hân hạnh mang đến những giải pháp công nghệ hiện đại nhất, ổn định nhất và hiệu quả nhất cho ý tưởng kinh doanh của bạn.</p>
+                        <p>Bằng tất cả tâm huyết của người làm nghề, chúng tôi luôn xem những sản phẩm tạo ra là con đẻ của mình. Chăm sóc và hoàn thiện chúng một cách hoàn hảo nhất. Tất cả vì thương hiệu 4biz.vn!</p>
+                        <a href="#" class="btn btn-default">Xem thêm</a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 bottom-padding">
+                        <div class="progress border-radius hover" data-appear-progress-animation="90%">
+                            <div class="progress-bar progress-bar-info">Kinh nghiệm xây dựng ứng dụng Web 90%</div>
+                        </div>
+
+                        <div class="progress border-radius" data-appear-progress-animation="80%">
+                            <div class="progress-bar progress-bar-success">Kinh nghiệm làm SEO 80%</div>
+                        </div>
+
+                        <div class="progress border-radius" data-appear-progress-animation="60%">
+                            <div class="progress-bar progress-bar-info">Kinh nghiệp xây dựng Ứng dụng di động 70%</div>
+                        </div>
+
+                        <div class="progress border-radius" data-appear-progress-animation="85%">
+                            <div class="progress-bar progress-bar-warning">Kinh nghiệm bảo trì sản phẩm sẵn có 85%</div>
+                        </div>
+
+                        <div class="progress border-radius" data-appear-progress-animation="60%">
+                            <div class="progress-bar progress-bar-danger">Kinh nghiệm tạo Bộ nhận dạng thương hiệu 60%</div>
+                        </div>
+
+                        <div class="progress border-radius" data-appear-progress-animation="75%">
+                            <div class="progress-bar progress-bar-success">Kinh nghiệm xâu dựng Ứng dụng ERP 75%</div>
+                        </div>
+                    </div><!-- .employee -->
+                </div>
+
+                <div class="carousel-box bottom-padding load">
+                    <div class="clearfix"></div>
+
+                    <div class="row">
+                        <div class="carousel no-responsive gallery">
+                            <div class="col-sm-4 col-md-3">
+                                <a class="gallery-images" rel="fancybox" href="~/img/content/team/01.jpg">
+                                    <img src="~/img/content/team/01.jpg" width="270" height="135" alt="">
+                                    <span class="bg-images"><i class="fa fa-search"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-md-3">
+                                <a class="gallery-images" rel="fancybox" href="~/img/content/team/02.jpg">
+                                    <img src="~/img/content/team/02.jpg" width="270" height="135" alt="">
+                                    <span class="bg-images"><i class="fa fa-search"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-md-3">
+                                <a class="gallery-images" rel="fancybox" href="~/img/content/team/03.jpg">
+                                    <img src="~/img/content/team/03.jpg" width="270" height="135" alt="">
+                                    <span class="bg-images"><i class="fa fa-search"></i></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-md-3">
+                                <a class="gallery-images" rel="fancybox" href="~/img/content/team/04.jpg">
+                                    <img src="~/img/content/team/04.jpg" width="270" height="135" alt="">
+                                    <span class="bg-images"><i class="fa fa-search"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
             </div>
+            <div class="full-width-box bottom-padding cm-padding-bottom-36">
+                <div class="fwb-bg fwb-fixed band-5"><div class="overlay"></div></div>
+
+                <div class="container">
+                    <div class="title-box title-white">
+                        <h1 class="title no-top-padding">Nhóm chúng tôi</h1>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-sm-3 col-md-3 rotation employee">
+                            <div class="default">
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div class="description">
+                                    <div class="vertical">
+                                        <h3 class="name">Troy Lee</h3>
+                                        <div class="role">Project Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="employee-hover">
+                                <h3 class="name">Troy Lee</h3>
+                                <div class="role">Project Manager</div>
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div>
+                                    <p>Thiết kế, xây dựng và quản lý các dự án Web và Mobile.</p>
+                                    <div class="contact"><b>Email: </b>troylee@4biz.vn</div>
+                                    <div class="contact"><b>Phone: </b>0986 111 680</div>
+                                </div>
+                                <div class="social">
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-facebook" href="https://www.facebook.com/troyvnit"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-gplus" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-linkedin" href="#"></a></div>
+                                </div>
+                            </div><!-- .employee-hover -->
+                        </div>
+                        <!-- .employee
+
+                -->
+                        <div class="col-sm-3 col-md-3 rotation employee">
+                            <div class="default">
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div class="description">
+                                    <div class="vertical">
+                                        <h3 class="name">Jon O. Example</h3>
+                                        <div class="role">Web designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="employee-hover">
+                                <h3 class="name">Jon O. Example</h3>
+                                <div class="role">Web designer</div>
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div>
+                                    <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                                    <div class="contact"><b>Email: </b>mett@itembridge.com</div>
+                                    <div class="contact"><b>Phone: </b>11 555 333 77</div>
+                                </div>
+                                <div class="social">
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-facebook" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-twitter" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-gplus" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-linkedin" href="#"></a></div>
+                                </div>
+                            </div><!-- .employee-hover -->
+                        </div>
+                        <!-- .employee
+
+                -->
+                        <div class="col-sm-3 col-md-3 rotation employee">
+                            <div class="default">
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div class="description">
+                                    <div class="vertical">
+                                        <h3 class="name">Turanga Leela</h3>
+                                        <div class="role">Graphic designer</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="employee-hover">
+                                <h3 class="name">Turanga Leela</h3>
+                                <div class="role">Graphic designer</div>
+                                <div class="image">
+                                    <img src="~/img/content/team/troy.png" alt="" title="" width="270" height="270">
+                                </div>
+                                <div>
+                                    <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                                    <div class="contact"><b>Email: </b>mett@itembridge.com</div>
+                                    <div class="contact"><b>Phone: </b>11 555 333 77</div>
+                                </div>
+                                <div class="social">
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-facebook" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-twitter" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-gplus" href="#"></a></div>
+                                    <div class="item"><a class="sbtnf sbtnf-rounded color color-hover icon-linkedin" href="#"></a></div>
+                                </div>
+                            </div><!-- .employee-hover -->
+                        </div>
+                        <!-- .employee
+
+                -->
+                    </div>
+                </div>
+            </div><!-- .full-width-box -->
+        </section>
 </article>
 </div><!-- #main -->
