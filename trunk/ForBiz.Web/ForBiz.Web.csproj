@@ -1046,8 +1046,14 @@
     <Content Include="img\comment-link.png" />
     <Content Include="img\content\band-1.jpg" />
     <Content Include="img\content\band-6.jpg" />
+    <Content Include="img\content\clients\au-co-bien-hoa-logo.png" />
+    <Content Include="img\content\clients\conceive-plus-logo.png" />
+    <Content Include="img\content\clients\kim-bien-market-logo.png" />
+    <Content Include="img\content\clients\smart-health-logo.png" />
+    <Content Include="img\content\clients\smart-salt-logo.png" />
+    <Content Include="img\content\clients\thoi-trang-viet-anh-logo.png" />
+    <Content Include="img\content\clients\vay-365-logo.png" />
     <Content Include="img\content\office-3.jpg" />
-    <Content Include="img\content\projects\10346446_829497383734943_4968173982976191618_n.jpg" />
     <Content Include="img\content\projects\au-co-bien-hoa-avatar.png" />
     <Content Include="img\content\projects\conceive-plus-avatar.png" />
     <Content Include="img\content\projects\dong-phuc-viet-anh-avatar.png" />
