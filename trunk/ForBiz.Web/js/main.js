@@ -1733,7 +1733,7 @@ jQuery(document).ready(function(){
 	  }
 	  
 	  revolutionSlider.revolution({
-		delay             : 6000,
+		delay             : 12000,
 		startwidth        : 1200,
 		startheight       : height,
 		hideThumbs        : 10,
@@ -1747,7 +1747,7 @@ jQuery(document).ready(function(){
 	  }).parents('.slider').removeClass('load');
 	} else {
 	  revolutionSlider.revolution({
-		delay          : 6000,
+		delay          : 12000,
 		startwidth     : 1200,
 		startheight    : 500,
 		hideThumbs     : 10,
